@@ -6,7 +6,8 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var resturant = new Restaurant();
+            resturant.GetGarlicBread();
         }
     }
 }
